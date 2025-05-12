@@ -1,0 +1,11 @@
+{
+  "main": "./integration.js",
+  "name": "wireshark_oui",
+  "version": "3.0.0",
+  "private": true,
+  "dependencies": {
+    "postman-request": "^2.88.1-postman.42",
+    "node-schedule": "^2.1.1",
+    "cron-parser": "^5.2.0"
+  }
+}
