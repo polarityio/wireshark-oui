@@ -45,6 +45,16 @@ async function doLookup(entities, options, cb) {
           }
         }
       });
+    } else if (options.returnMisses) {
+      lookupResults.push({
+        entity,
+        data: {
+          summary: ['Unassigned'],
+          details: {
+            oui: null
+          }
+        }
+      });
     } else {
       lookupResults.push({ entity, data: null });
     }
