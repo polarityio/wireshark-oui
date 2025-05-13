@@ -11,7 +11,10 @@ The OUI database is downloaded from: https://www.wireshark.org/download/automate
 ## Wireshark OUI Integration Options
 
 ### Automatically Update OUI Database
-If enabled, the integration will automatically update the OUI database from Wireshark's download server once a week.
+If enabled, the integration will automatically update the OUI database from Wireshark's download server once a week. Defaults to enabled.
+
+### Always Return Results
+If enabled, the integration will return a result even if the MAC address has no vendor assignment. Defaults to enabled.
 
 ## Installation Instructions
 
